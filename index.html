@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <nav class="navbar navbar-light bg-light">
+    <div class="container">
+      <span class="navbar-brand mb-0 h1">Movie List with Genres</span>
+    </div>
+  </nav>
+  <div class="container-fluid mt-3">
+    <div class="row">
+      <div class="col-3">
+        <ul class="list-group" id="genres-list">
+          <!-- display genres list here -->
+        </ul>
+      </div>
+
+      <div class="col-9">
+        <div class="row" id="genres-panel">
+          <!-- display movie cards here -->
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <script src="index.js"></script>
+</body>
+
+</html>
