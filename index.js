@@ -47,6 +47,8 @@
     showSelectedItem(event)
     if (data.some(item => item.genres.some(item => item === Number(genreId)))) {
       showMovies(event)
+    } else {
+      genresPanel.innerHTML = ''
     }
   })
 
