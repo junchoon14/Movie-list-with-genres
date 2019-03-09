@@ -44,7 +44,7 @@
   //listen to genres menu
   genresList.addEventListener('click', (event) => {
     const genreId = event.target.dataset.id
-    showSelectedItem(event)(event)
+    showSelectedItem(event)
     if (data.some(item => item.genres.some(item => item === Number(genreId)))) {
       showMovies(event)
     }
